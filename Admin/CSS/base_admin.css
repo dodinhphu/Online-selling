@@ -1,0 +1,58 @@
+﻿:root {
+    --mautrang: #fff;
+    --mauden: #000;
+    --mauchu: #333;
+    --maunen: #8a8989;
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    --height_listmenu: 34px;
+    --height_phandau: 120px;
+    --height_phanlogo-seach-giohang: calc(var(--height_phandau)- var(--height_listmenu));
+    --mauchudao: #f66448;
+}
+
+.grid {
+    width: 1400px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.grid_colum_2_4 { /* chiều ngang của item chia thành 2sp */
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 20%;
+}
+
+.grid_colum_sp_10 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 83.3334%;
+}
+
+.grid_colum_2 { /* chiều ngang của danh mục */
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 16.6667%;
+}
